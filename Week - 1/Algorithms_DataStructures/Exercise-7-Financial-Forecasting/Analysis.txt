@@ -1,0 +1,13 @@
+Exercise 7: Financial Forecasting
+1. Recursion
+Recursion is a programming technique in which a function calls itself until a base condition is met.
+It simplifies problems that can be broken into smaller subproblems.
+2. Recursive Algorithm
+The future value is calculated recursively by applying the growth rate for each year until the number of years becomes zero.
+3. Time Complexity
+Time Complexity: O(n)
+where n is the number of years.
+The function makes one recursive call for each year.
+4. Optimization
+The recursive solution can be optimized using memoization or dynamic programming.
+For very large inputs, an iterative approach can also be used to avoid excessive recursive calls and stack memory usage.

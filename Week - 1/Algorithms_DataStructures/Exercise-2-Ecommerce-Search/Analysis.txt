@@ -1,0 +1,20 @@
+Exercise 2: E-commerce Platform Search Function
+1. Big O Notation
+Big O notation is used to measure the efficiency of an algorithm.
+It describes how the execution time grows as the input size increases.
+2. Search Operation Scenarios
+Linear Search:
+Best Case: O(1) – Element found at first position.
+Average Case: O(n) – Element found in the middle.
+Worst Case: O(n) – Element found at last position or not found.
+Binary Search:
+Best Case: O(1) – Element found at middle position.
+Average Case: O(log n)
+Worst Case: O(log n)
+3. Time Complexity Comparison
+Linear Search: O(n)
+Binary Search: O(log n)
+4. Suitable Algorithm
+Binary Search is more suitable for an e-commerce platform because it is much faster for large datasets.
+However, the data must be sorted before performing binary search.
+For large product catalogs, binary search provides better performance than linear search.
